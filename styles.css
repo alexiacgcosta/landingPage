@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url('/imagens/background1.png');
+  background-repeat: no-repeat;
+  height: 560px;
+  background-size: cover;
+}
+#logo {
+  padding: 60px;
+}
+
+#titulo {
+  color: white;
+  padding-left: 170px;
+  padding-top: 50px;
+  width: 530px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+}
+header h1 {
+  font-size: 40px;
+}
+headerh2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#barra2 {
+  background-color: #eaece5;
+  display: flex;
+  flex-direction: row;
+  height: 170px;
+  justify-content: space-evenly;
+}
+
+.cinza {
+  display: flex;
+  flex-direction: row;
+}
+.cinza img {
+  width: 24px;
+}
+.cinza p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #122235;
+  margin-left: 10px;
+}
+#barra3 {
+  display: flex;
+  justify-content: center;
+  height: 460px;
+  align-items: center;
+}
+#video {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#texto {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+#texto h2 {
+  color: #247ba0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  margin-bottom: 3%;
+}
+
+#texto p {
+  margin-top: 3%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #383838;
+}
+
+#barra4 {
+  background-color: #247ba0;
+  height: 444px;
+}
+
+#letrabranca {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  color: #eaece5;
+  text-align: center;
+  padding: 60px;
+}
+
+#divbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 500px;
+}
+
+.box p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #383838;
+}
+
+#barra5 {
+  background-color: #eaece5;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#barra5 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  padding: 50px;
+  color: #383838;
+}
+#barra5 button {
+  background: #247ba0;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 60px 10px 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
